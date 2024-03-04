@@ -1,0 +1,40 @@
+,type,name,id
+0,VMH:metabolite-disease:Decreased,metabolite:disease,0
+1,GNBR:Ud,Gene:Disease,1
+2,GNBR:L,Gene:Disease,2
+3,GNBR:Pa,Compound:Disease,3
+4,VMH:metabolite-disease:Increased,metabolite:disease,4
+5,Hetionet:DrD,Disease:Disease,5
+6,GNBR:J,Gene:Disease,6
+7,MIND:microbe-microbe:metabolic competition index,microbe:microbe,7
+8,GNBR:Y,Gene:Disease,8
+9,Hetionet:DuG,Disease:Gene,9
+10,Hetionet:DdG,Disease:Gene,10
+11,GNBR:Md,Gene:Disease,11
+12,GNBR:Te,Gene:Disease,12
+13,HMDB:microbe-metabolite,microbe:metabolite,13
+14,GNBR:Mp,Compound:Disease,14
+15,GNBR:J,Compound:Disease,15
+16,GNBR:D,Gene:Disease,16
+17,HMDB:metabolite-disease,metabolite:disease,17
+18,MIND:microbe-microbe:metabolic influence,microbe:microbe,18
+19,GNBR:T,Compound:Disease,19
+20,GNBR:G,Gene:Disease,20
+21,Hetionet:CpD,Compound:Disease,21
+22,Hetionet:DlA,Disease:Anatomy,22
+23,DRUGBANK:treats,Compound:Disease,23
+24,MIND:microbe-microbe:correlation,microbe:microbe,24
+25,MIND:microbe-microbe,metabolic complementarity index:microbe:microbe,25
+26,GNBR:X,Gene:Disease,26
+27,TAXONOMY:microbe-division,microbe:division,27
+28,GNBR:Pr,Compound:Disease,28
+29,MIND:microbe-microbe:binding,microbe:microbe,29
+30,GNBR:U,Gene:Disease,30
+31,Hetionet:DpS,Disease:Symptom,31
+32,GNBR:Sa,Compound:Disease,32
+33,Hetionet:CtD,Compound:Disease,33
+34,MIND:microbe-microbe:transduction,microbe:microbe,34
+35,VMH:microbe-metabolite,microbe:metabolite,35
+36,VMH:disease-organ,disease:organ,36
+37,GNBR:C,Compound:Disease,37
+38,Hetionet:DaG,Disease:Gene,38
