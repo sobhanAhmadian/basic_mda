@@ -1,11 +1,33 @@
 In this project, we implemented 18 different models for the task of the Microbe-Disease Association.
 Each model is evaluated using 5-fold cross-validation.
 
+We have two kinds of input for the Microbe-Disease Problem:
+
++ Interaction Profile
+
+![Interaction Profile](/images/ip.png)
+
+Each element of this profile determines whether a microbe is associated with a disease. Our interaction profile is built based on the [HMDAD](https://www.cuilab.cn/hmdad) dataset.
+
++ A Knowledge Graph
+
+![Knowledge Graph](/images/kg.png)
+
+This data is based on the [KGNMDA](https://ieeexplore.ieee.org/document/9800198) work.
+
+The output of the problem is whether a disease and a microbe are associated. The following flowchart illustrates this:
+
+![Flowchart of Problem](/images/flowchart.png)
+
 # Models Using Interaction Profile for Feature Extraction
+
+In this approach, we just use the interaction profile as the input for our learning algorithm.
 
 ## Matrix Completion Approach
 
-+ [nfm](https://github.com/sobhanAhmadian/basic_mda/blob/main/notebooks/report/models/matrix_completion/nmf.ipynb)
+![Matrix Completion Algorithms](/images/matcomp.png)
+
++ [nmf](https://github.com/sobhanAhmadian/basic_mda/blob/main/notebooks/report/models/matrix_completion/nmf.ipynb)
 + [pca](https://github.com/sobhanAhmadian/basic_mda/blob/main/notebooks/report/models/matrix_completion/pca.ipynb)
 
 ## Feature Extraction + Classifier
@@ -17,6 +39,8 @@ Each model is evaluated using 5-fold cross-validation.
 + [pca_features](https://github.com/sobhanAhmadian/basic_mda/blob/main/notebooks/report/models/microbe_disease_matrix_feature_based/pca_features.ipynb)
 
 ### Choice of Classifier
+
+In this part, we used the Jaccard similarity features for the feature extraction part but we used different classifiers.
 
 + [ada_boost](https://github.com/sobhanAhmadian/basic_mda/blob/main/notebooks/report/models/microbe_disease_matrix_feature_based/jaccard_similarity_features/ada_boost.ipynb)
 + [decision_tree](https://github.com/sobhanAhmadian/basic_mda/blob/main/notebooks/report/models/microbe_disease_matrix_feature_based/jaccard_similarity_features/decision_tree.ipynb)
